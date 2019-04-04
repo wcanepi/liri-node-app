@@ -8,7 +8,7 @@
 
 **LIRI** allows you to search for events by artist/band, song details on Spotify, and movie details on OMDB.
 
-**LIRI** uses the Node-Spotify API, the OMDb API and Axios.
+**LIRI** uses the Node-Spotify API, the OMDb API, the Bands in Town Artist Events API and also Axios.
 
 ### Search for song details on Spotify: ###
 
@@ -38,3 +38,11 @@ node liri.js do-what-it-says
 ```
 
 ![Do This](images/whatitsays.png "I Want It That Way")
+
+
+### Search for Concerts with Bands in Town Artist Events API: ###
+
+```
+node liri.js concert-this <Name of Artist/Band>
+```
+![Concerts](images/concert1.png "Concert Venues")
